@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Negocio
 {
-    public class IServicioFacturacion
+    public interface IServicioFacturacion<T>
     {
+        bool Agregar(T Object);
+        bool Eliminar(T Object);
+        bool Actualizar(T Object);
+        List<T> Listar();    
     }
 }

@@ -41,21 +41,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArchivoAdministrador.cs" />
-    <Compile Include="ArchivoCliente.cs" />
-    <Compile Include="ArchivoCompra.cs" />
-    <Compile Include="ArchivoInventario.cs" />
-    <Compile Include="ArchivoProducto.cs" />
-    <Compile Include="ArchivoUsuario.cs" />
-    <Compile Include="ArchivoVenta.cs" />
+    <Compile Include="Archivos\ArchivoAdministrador.cs" />
+    <Compile Include="Archivos\ArchivoCliente.cs" />
+    <Compile Include="Archivos\ArchivoCompra.cs" />
+    <Compile Include="Archivos\ArchivoInventario.cs" />
+    <Compile Include="Archivos\ArchivoProducto.cs" />
+    <Compile Include="Archivos\ArchivoUsuario.cs" />
+    <Compile Include="Archivos\ArchivoVenta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReopsitorioCliente.cs" />
-    <Compile Include="RepositorioAdministrador.cs" />
-    <Compile Include="RepositorioCompra.cs" />
-    <Compile Include="RepositorioInventario.cs" />
-    <Compile Include="RepositorioProducto.cs" />
-    <Compile Include="RepositorioUsuario.cs" />
-    <Compile Include="RepositorioVenta.cs" />
+    <Compile Include="Repositorios\ReopsitorioCliente.cs" />
+    <Compile Include="Repositorios\RepositorioAdministrador.cs" />
+    <Compile Include="Repositorios\RepositorioCompra.cs" />
+    <Compile Include="Repositorios\RepositorioInventario.cs" />
+    <Compile Include="Repositorios\RepositorioProducto.cs" />
+    <Compile Include="Repositorios\RepositorioUsuario.cs" />
+    <Compile Include="Repositorios\RepositorioVenta.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entidad\Entidad.csproj">
