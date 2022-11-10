@@ -53,5 +53,10 @@ namespace Presentacion
             VentanaReportes ventanaReportes = new VentanaReportes();
             ventanaReportes.ShowDialog();
         }
+
+        private void MenuPrincipal_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
