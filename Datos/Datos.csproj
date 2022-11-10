@@ -49,7 +49,7 @@
     <Compile Include="Archivos\ArchivoUsuario.cs" />
     <Compile Include="Archivos\ArchivoVenta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositorios\ReopsitorioCliente.cs" />
+    <Compile Include="Repositorios\RepositorioCliente.cs" />
     <Compile Include="Repositorios\RepositorioAdministrador.cs" />
     <Compile Include="Repositorios\RepositorioCompra.cs" />
     <Compile Include="Repositorios\RepositorioInventario.cs" />

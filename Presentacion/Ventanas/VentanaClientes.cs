@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Negocio;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,13 @@ namespace Presentacion.Ventanas
         public VentanaClientes()
         {
             InitializeComponent();
+        }
+
+        ClienteImpl clienteImpl = new ClienteImpl();
+    
+        private void VentanaClientes_Load(object sender, EventArgs e)
+        {
+            DatosCliente.DataSource = clienteImpl.Listar();
         }
     }
 }

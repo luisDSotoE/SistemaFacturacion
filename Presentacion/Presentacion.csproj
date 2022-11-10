@@ -148,6 +148,10 @@
       <Project>{49d64519-455e-4286-a07e-01b83e8a36a4}</Project>
       <Name>Entidad</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Negocio\Negocio.csproj">
+      <Project>{504edda7-a52d-4c10-9f99-4977ef469421}</Project>
+      <Name>Negocio</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Imagenes\bolsa-de-dinero.png" />
