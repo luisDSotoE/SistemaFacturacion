@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Negocio
 {
-    internal class InventarioImpl
+    public class InventarioImpl
     {
     }
 }

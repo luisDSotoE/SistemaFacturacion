@@ -1,12 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Negocio
 {
-    public interface IServicioFacturacion<T>
+    public class IServicioFacturacion
     {
-        bool Agregar(T objeto);
-        bool Eliminar(T objeto);
-        bool Actualizar(T objeto);
-        List<T> Listar();
     }
 }
